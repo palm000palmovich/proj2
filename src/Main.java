@@ -44,6 +44,21 @@ public class Main {
         int papper = 480;
         System.out.println("На каждого ученика рассчитано " + (papper/(lp + as + ea)) + " листов бумаги.");
 
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 4");
+        int speed_p_min = 8;
+        int min = 20;
+        int sutki = 1;
+        int dni = 3;
+        int mes = 1;
+        System.out.println("За 20 минут машина произвела " + (speed_p_min * min) + " штук бутылок." + "\n"
+                + "За сутки: " + (speed_p_min*(sutki*24*60)) + " бутылок " + "\n"
+                + "За 3 дня: " + (speed_p_min*(sutki*24*60))*3 + " штук" + "\n"
+                + "За месяц: " + (speed_p_min*(sutki*24*60))*30 + " бутылей.");
+
 
     }
 
