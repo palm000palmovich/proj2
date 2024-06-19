@@ -70,6 +70,21 @@ public class Main {
         System.out.println("В школе, где " + (sum / (bel + kor)) + " классов, нужно " + ((sum / (bel + kor))*bel)+ "\n"
                 + "банок белой краски и " + ((sum / (bel + kor))*kor) + " банок коричневой краски.");
 
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 6");
+        byte banana = 5;
+        byte milk = 2;
+        byte ice_cream = 2;
+        byte eggs = 4;
+        float kg = (banana*80 + milk*105 + ice_cream*100 + eggs*70)/1000f;
+        System.out.println("Общий вес завтрака: " + (banana*80 + milk*105 + ice_cream*100 + eggs*70) +
+                " Граммов или " + kg + " Кг");
+
+
+
     }
 
 
