@@ -34,6 +34,17 @@ public class Main {
             perc+=25;
         }
         System.out.println("Initialisation passed saccessfully!");
+
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 3");
+        int lp = 23, as = 27, ea = 30;
+        int papper = 480;
+        System.out.println("На каждого ученика рассчитано " + (papper/(lp + as + ea)) + " листов бумаги.");
+
+
     }
 
 
