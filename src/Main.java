@@ -83,6 +83,20 @@ public class Main {
         System.out.println("Общий вес завтрака: " + (banana*80 + milk*105 + ice_cream*100 + eggs*70) +
                 " Граммов или " + kg + " Кг");
 
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 7");
+        byte loos_kg = 7;
+        int day_min_gr = 250;
+        int day_max_gr = 500;
+        System.out.println("При сбрасывании " + day_min_gr + " граммов в день, спортсмену понадобится " +
+                loos_kg*1000/day_min_gr + " дней, а при потере " + day_max_gr + " грамм в день - " +
+                loos_kg*1000/day_max_gr + " дней." + "\n"
+                + "В среднем ему потребуется " + (loos_kg*1000/day_min_gr + loos_kg*1000/day_max_gr)/2 +
+                " день.");
+
 
 
     }
