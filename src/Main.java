@@ -16,7 +16,28 @@ public class Main {
                 + "Значение переменной с типом " + what_type(pahan) + " равно " + pahan + "\n"
                 + "Значение переменной с типом " + what_type(pig) + " равно " + pig + "\n"
                 + "Значение переменной с типом " + what_type(shrek) + " равно " + shrek);
+
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+        System.out.println("Задание 2");
+        float x1 = 27.12f;
+        long x2 = 987678965549l;
+        double x3 = 2.786;
+        int x4 = 569;
+        int x5 = -159;
+        int x6 = 27897;
+        byte x7 = 67;
+        int perc = 0;
+        for (int i = 0; i < 4; i++){
+            System.out.println("Processing: " + perc + "%");
+            perc+=25;
+        }
+        System.out.println("Initialisation passed saccessfully!");
     }
+
+
+
 
     //Функция возвращает тип переменных
     public static String what_type(Object val){
