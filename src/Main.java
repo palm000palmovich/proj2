@@ -97,6 +97,20 @@ public class Main {
                 + "В среднем ему потребуется " + (loos_kg*1000/day_min_gr + loos_kg*1000/day_max_gr)/2 +
                 " день.");
 
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 8");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        double m = masha + (0.1*masha);
+        double d = denis+(0.1*denis);
+        double k = kristina+(0.1*kristina);
+        System.out.println("Маша теперь получает " + m + ". Годовой доход вырос на " + (m*12 - masha*12));
+        System.out.println("Денис теперь получает " + d + ". Годовой доход вырос на " + (d*12 - denis*12));
+        System.out.println("Кристина теперь получает " + k + ". Годовой доход вырос на " + (k*12 - kristina*12));
 
 
     }
