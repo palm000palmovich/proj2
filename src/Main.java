@@ -59,6 +59,16 @@ public class Main {
                 + "За 3 дня: " + (speed_p_min*(sutki*24*60))*3 + " штук" + "\n"
                 + "За месяц: " + (speed_p_min*(sutki*24*60))*30 + " бутылей.");
 
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 5");
+        byte sum = 120;
+        byte bel = 2;
+        byte kor = 4;
+        System.out.println("В школе, где " + (sum / (bel + kor)) + " классов, нужно " + ((sum / (bel + kor))*bel)+ "\n"
+                + "банок белой краски и " + ((sum / (bel + kor))*kor) + " банок коричневой краски.");
 
     }
 
