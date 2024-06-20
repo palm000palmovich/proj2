@@ -16,7 +16,107 @@ public class Main {
                 + "Значение переменной с типом " + what_type(pahan) + " равно " + pahan + "\n"
                 + "Значение переменной с типом " + what_type(pig) + " равно " + pig + "\n"
                 + "Значение переменной с типом " + what_type(shrek) + " равно " + shrek);
+
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+        System.out.println("Задание 2");
+        float x1 = 27.12f;
+        long x2 = 987678965549l;
+        double x3 = 2.786;
+        int x4 = 569;
+        int x5 = -159;
+        int x6 = 27897;
+        byte x7 = 67;
+        int perc = 0;
+        for (int i = 0; i < 4; i++){
+            System.out.println("Processing: " + perc + "%");
+            perc+=25;
+        }
+        System.out.println("Initialisation passed saccessfully!");
+
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 3");
+        int lp = 23, as = 27, ea = 30;
+        int papper = 480;
+        System.out.println("На каждого ученика рассчитано " + (papper/(lp + as + ea)) + " листов бумаги.");
+
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 4");
+        int speed_p_min = 8;
+        int min = 20;
+        int sutki = 1;
+        int dni = 3;
+        int mes = 1;
+        System.out.println("За 20 минут машина произвела " + (speed_p_min * min) + " штук бутылок." + "\n"
+                + "За сутки: " + (speed_p_min*(sutki*24*60)) + " бутылок " + "\n"
+                + "За 3 дня: " + (speed_p_min*(sutki*24*60))*3 + " штук" + "\n"
+                + "За месяц: " + (speed_p_min*(sutki*24*60))*30 + " бутылей.");
+
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 5");
+        byte sum = 120;
+        byte bel = 2;
+        byte kor = 4;
+        System.out.println("В школе, где " + (sum / (bel + kor)) + " классов, нужно " + ((sum / (bel + kor))*bel)+ "\n"
+                + "банок белой краски и " + ((sum / (bel + kor))*kor) + " банок коричневой краски.");
+
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 6");
+        byte banana = 5;
+        byte milk = 2;
+        byte ice_cream = 2;
+        byte eggs = 4;
+        float kg = (banana*80 + milk*105 + ice_cream*100 + eggs*70)/1000f;
+        System.out.println("Общий вес завтрака: " + (banana*80 + milk*105 + ice_cream*100 + eggs*70) +
+                " Граммов или " + kg + " Кг");
+
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 7");
+        byte loos_kg = 7;
+        int day_min_gr = 250;
+        int day_max_gr = 500;
+        System.out.println("При сбрасывании " + day_min_gr + " граммов в день, спортсмену понадобится " +
+                loos_kg*1000/day_min_gr + " дней, а при потере " + day_max_gr + " грамм в день - " +
+                loos_kg*1000/day_max_gr + " дней." + "\n"
+                + "В среднем ему потребуется " + (loos_kg*1000/day_min_gr + loos_kg*1000/day_max_gr)/2 +
+                " день.");
+
+        for (int i = 0; i < 2; i++){
+            System.out.println("\n");
+        }
+
+        System.out.println("Задание 8");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        double m = masha + (0.1*masha);
+        double d = denis+(0.1*denis);
+        double k = kristina+(0.1*kristina);
+        System.out.println("Маша теперь получает " + m + ". Годовой доход вырос на " + (m*12 - masha*12));
+        System.out.println("Денис теперь получает " + d + ". Годовой доход вырос на " + (d*12 - denis*12));
+        System.out.println("Кристина теперь получает " + k + ". Годовой доход вырос на " + (k*12 - kristina*12));
+
+
     }
+
+
+
 
     //Функция возвращает тип переменных
     public static String what_type(Object val){
